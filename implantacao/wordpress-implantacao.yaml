@@ -1,0 +1,12 @@
+template-file-path: wordpress-pilha.yaml
+parameters:
+  VPCStackName: WordPress-VPC
+  InstanceType: t2.micro
+  DBName: TestWordPressDB
+  DBPassword: mysupersecrettestpassword
+  DBUsername: TestDBuser
+  KeyName: test-key
+  DBInstanceClass: db.t3.medium
+  DBAllocatedStorage: 20
+  SSHLocation: 0.0.0.0/0
+tags: {}
